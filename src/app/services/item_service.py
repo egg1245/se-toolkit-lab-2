@@ -228,6 +228,7 @@ def get_item_by_id_dfs_iterative(
 
                     for task in lab.tasks:
                         counter += 1
+
                         if task.id == item_id:
                             return FoundItem(task, counter)
 
